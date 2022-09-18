@@ -1,0 +1,176 @@
+    /* basic colors */
+
+/* #151618 */
+/* #062E85 */
+/* #2CA26C */
+
+/* end */
+
+:root {
+    --primary-color:#151618;
+    --secondary-color: #062E85;
+    --color: #2CA26C;
+}
+.bg-light {
+    background-color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link {
+color:rgba(12, 1, 1, 0.89) !important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(12, 3, 3, 0.9) !important;
+}
+.section-banner {
+    min-height: 400px;
+    background-color: var(--secondary-color);
+}
+.banner-content, .banner-img {
+    margin-top: 80px;
+}
+.icon-section {
+    background-color: rgb(243, 240, 240);
+    padding: 20px 0px;
+    box-shadow: 2px 2px 2px #151618;
+    text-align: center;
+}
+.icon-section  i{
+    font-size: 50px;
+    color:var(--secondary-color);
+}
+.section-gradient {
+    padding: 80px 0px;
+    background-image: linear-gradient(to right, var(--color) , var(--secondary-color))
+}
+.footer-bottom {
+    padding: 5px;
+    background-color: #151618;
+}
+#top-menu {
+  
+    padding: 10px 0;
+    background: #1d0a5f;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: white;
+    text-align-last:justify;
+    margin-right: 3px;
+  
+}
+.navbar-brand{
+    margin-left: auto;
+}
+.navbar-brand {
+    
+    margin-left: 100px;
+}
+.carousel-caption {
+
+    bottom: 20px;
+   
+    padding-bottom:200px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.col-lg-2{
+    padding-left: 900px;
+}
+.About-us{
+    background-color: rgb(252, 239, 239);
+}
+.banner-img img {
+
+   padding-bottom: 100px; 
+}
+
+.Features{
+    background-color: rgb(184, 172, 172);
+}
+    .Gallary-hom{
+        background-color: indigo;
+    }
+    .header-banner {
+        background: url(/assets/images/background.png);
+        width: 100%;
+        height: auto;
+        padding: 0 0 0;
+        background-repeat: repeat;
+    }
+    footer-1 {
+        background: rgb(255, 47, 158);
+    }
+    .card-body{
+        color: black;
+    }
+    .card-header{
+        color: black;
+        background: rgb(241, 6, 6);
+    }
+    .col-lg-8 {
+       background: rgb(182, 228, 228);
+       text-align: center;
+     font-size: larger;
+       font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+    
+    .footer-3{
+        background-color: rgb(126, 176, 199);
+    }
+    .footer-4{
+        text-align: center;
+        font
+    }
+    .header-section{
+        background-color: maroon;
+        padding: 5px 0px;
+        margin-bottom: 20px;
+    }
+    
+    .header-top{
+        display: flex;
+    }
+    .header-top .section-left ul li{
+        display: inline-block;
+        padding: 5px 20px;
+        margin-top: 5px;
+    }
+   
+    .btn {
+        margin-top: 4px;
+        display: inline-block;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+        vertical-align: middle;
+        
+        background-color:orangered;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 50px;
+        padding-left: 40;
+    }
+    .section-left{
+        margin-left: 78px;
+    }
+    .section-right{
+        margin-right: 78px;
+    }
+.search{
+    margin-right: 78px;
+}
+.popup-video i{
+    background: #fff;
+    color: #ff1313;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+}
