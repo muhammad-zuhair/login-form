@@ -1,2 +1,2 @@
 # admission-form
-this admission form is for 2022
+This admission form is for 2022
